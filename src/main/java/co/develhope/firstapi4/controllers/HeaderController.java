@@ -11,6 +11,4 @@ public class HeaderController {
     public String getHost(@RequestHeader(name = "host") String host){
         return host;
     }
-
-
 }
